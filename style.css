@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.container{
+   padding: 100px;
+}
+ 
+
+.list-contents{
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    background-color: #fff;
+    width: 700px;
+}
+
+#input{
+    outline: none;
+    width: 550px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.clear{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    top: 7px;
+    right: 100px;
+    transition: all 0.3s;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.clear:hover{
+    background-color: rgb(215, 211, 211);
+}
+
+#add{
+    padding: 10px 30px;
+    background-color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#add:hover{
+    opacity: 0.9;
+}
+
+.input-task{
+    font-size: 20px;
+    background-color: #999;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 700px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.all__clean{
+    position: absolute;
+    bottom:-70px;
+    right: 500px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #999;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000;
+    align-items: center;
+    position: relative;
+}
+
+.newDiv_name{
+    padding-left: 20px;
+}
+
+.edit{
+    background-color: rgb(159, 244, 159);
+    padding: 10px 30px;
+    transition: all 0.3s;
+    color: green;
+    cursor: pointer;
+    position: absolute;
+    right: 77px;
+}
+
+.deleteBtn{
+    background-color: rgb(246, 130, 130);
+    padding: 10px 30px;
+    transition: all 0.3s;
+    color: red;
+    cursor: pointer;
+}
+.delete:hover{
+    opacity: 0.8;
+}
+
+.edit:hover{
+    opacity: 0.8;
+}
+
+.list-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.edited{
+    padding-left: 20px;
+}
+
+.todo-btn{
+    background-color: rgb(159, 244, 159);
+    padding: 10px 30px;
+    transition: all 0.3s;
+    color: green;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.update{
+    background-color: rgb(159, 244, 159);
+    padding: 10px 30px;
+    transition: all 0.3s;
+    color: green;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.todo-btn:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.todo-text{
+    border: none;
+    width: 500px;
+    outline: none;
+    padding: 10px 0 10px 20px;
+    font-size: 20px;
+}
+
+.tasks-wrapper{
+    position: relative;
+}
